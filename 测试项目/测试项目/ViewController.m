@@ -18,6 +18,7 @@
     [super viewDidLoad];
     
      NSLog(@"看见了吗?");
+     NSLog(@"没看见");
 }
 
 - (void)didReceiveMemoryWarning {
