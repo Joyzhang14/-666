@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		049E06511B9775E1004D1B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E06501B9775E1004D1B83 /* main.m */; };
 		049E065C1B9775E1004D1B83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E065B1B9775E1004D1B83 /* Images.xcassets */; };
-		049E065F1B9775E1004D1B83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049E065D1B9775E1004D1B83 /* LaunchScreen.xib */; };
 		049E066B1B9775E1004D1B83 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E066A1B9775E1004D1B83 /* ____Tests.m */; };
 		04A2447B1B97869700120E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A244751B97869700120E5E /* AppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		049E064F1B9775E1004D1B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049E06501B9775E1004D1B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		049E065B1B9775E1004D1B83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		049E065E1B9775E1004D1B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		049E06641B9775E1004D1B83 /* 测试项目Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试项目Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E06691B9775E1004D1B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049E066A1B9775E1004D1B83 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 			children = (
 				04A244721B97869700120E5E /* Classes */,
 				049E065B1B9775E1004D1B83 /* Images.xcassets */,
-				049E065D1B9775E1004D1B83 /* LaunchScreen.xib */,
 				049E064E1B9775E1004D1B83 /* Supporting Files */,
 			);
 			path = "测试项目";
@@ -247,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049E065F1B9775E1004D1B83 /* LaunchScreen.xib in Resources */,
 				049E065C1B9775E1004D1B83 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,17 +284,6 @@
 			targetProxy = 049E06651B9775E1004D1B83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		049E065D1B9775E1004D1B83 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				049E065E1B9775E1004D1B83 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		049E066C1B9775E1004D1B83 /* Debug */ = {
