@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040011821B97A3300068F4E7 /* UIImage+imgTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 040011811B97A3300068F4E7 /* UIImage+imgTool.m */; };
 		049E06511B9775E1004D1B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E06501B9775E1004D1B83 /* main.m */; };
 		049E065C1B9775E1004D1B83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E065B1B9775E1004D1B83 /* Images.xcassets */; };
 		049E066B1B9775E1004D1B83 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E066A1B9775E1004D1B83 /* ____Tests.m */; };
@@ -25,6 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040011801B97A3300068F4E7 /* UIImage+imgTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+imgTool.h"; sourceTree = "<group>"; };
+		040011811B97A3300068F4E7 /* UIImage+imgTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imgTool.m"; sourceTree = "<group>"; };
+		040011831B97A99C0068F4E7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		049E064B1B9775E1004D1B83 /* 测试项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E064F1B9775E1004D1B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049E06501B9775E1004D1B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -137,6 +141,9 @@
 		04A244761B97869700120E5E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				040011801B97A3300068F4E7 /* UIImage+imgTool.h */,
+				040011811B97A3300068F4E7 /* UIImage+imgTool.m */,
+				040011831B97A99C0068F4E7 /* PrefixHeader.pch */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -270,6 +277,7 @@
 				049E06511B9775E1004D1B83 /* main.m in Sources */,
 				04A2447E1B97874600120E5E /* MainViewController.m in Sources */,
 				04A2447B1B97869700120E5E /* AppDelegate.m in Sources */,
+				040011821B97A3300068F4E7 /* UIImage+imgTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "测试项目/Classes/Tool/PrefixHeader.pch";
 				INFOPLIST_FILE = "测试项目/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "测试项目/Classes/Tool/PrefixHeader.pch";
 				INFOPLIST_FILE = "测试项目/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

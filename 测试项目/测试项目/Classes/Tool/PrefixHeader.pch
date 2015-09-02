@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  测试项目
+//
+//  Created by mac on 15/9/3.
+//  Copyright (c) 2015年 yy. All rights reserved.
+//
+
+#ifndef _____PrefixHeader_pch
+#define _____PrefixHeader_pch
+
+
+//自定义颜色
+#define YYRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+
+#endif
