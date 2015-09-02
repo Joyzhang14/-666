@@ -11,6 +11,7 @@
 		049E065C1B9775E1004D1B83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E065B1B9775E1004D1B83 /* Images.xcassets */; };
 		049E066B1B9775E1004D1B83 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E066A1B9775E1004D1B83 /* ____Tests.m */; };
 		04A2447B1B97869700120E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A244751B97869700120E5E /* AppDelegate.m */; };
+		04A2447E1B97874600120E5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2447D1B97874600120E5E /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,8 @@
 		049E066A1B9775E1004D1B83 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		04A244741B97869700120E5E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A244751B97869700120E5E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A2447C1B97874600120E5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04A2447D1B97874600120E5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 			children = (
 				04A244741B97869700120E5E /* AppDelegate.h */,
 				04A244751B97869700120E5E /* AppDelegate.m */,
+				04A2447C1B97874600120E5E /* MainViewController.h */,
+				04A2447D1B97874600120E5E /* MainViewController.m */,
 			);
 			path = Othter;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049E06511B9775E1004D1B83 /* main.m in Sources */,
+				04A2447E1B97874600120E5E /* MainViewController.m in Sources */,
 				04A2447B1B97869700120E5E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
